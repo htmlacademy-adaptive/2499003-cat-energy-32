@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Татьяна Кузнецова](https://up.htmlacademy.ru/adaptive/32/user/2499003).
-* Наставник: [Валера Хаслер] (https://htmlacademy.ru/profile/id224163).
+* Наставник: [Валера Хаслер](https://htmlacademy.ru/profile/id224163).
 
 ---
 
