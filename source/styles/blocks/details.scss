@@ -1,0 +1,20 @@
+.details__list {
+  list-style-type: none;
+}
+
+.details__title {
+  font-family: $secondary-font;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+}
+
+.details__description {
+  font-family: $basic-font;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
+}
