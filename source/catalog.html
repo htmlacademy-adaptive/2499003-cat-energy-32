@@ -14,8 +14,12 @@
   <header class="header">
     <h1 class="visually-hidden">Интернет-магазин здорового питания для котов Cat energy</h1>
     <a class="header__logo" href="index.html">
-      <img class="header__logo-image" src="#" width="33" height="38" alt="Логотип с котом">
-      <img class="header__logo-text" src="#" width="101" height="18" alt="Логотип с надписью Cat energy">
+      <picture>
+        <source media="(min-width:1440px)" width="70" height="59" type="image/svg+xml" srcset="images/logo-desktop.svg">
+        <source media="(min-width:768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-tablet.svg">
+        <img class="header__logo-image" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
+      </picture>
+      <img class="header__logo-text" src="images/logo-text.svg" width="101" height="18" alt="Логотип с надписью Cat Energy">
     </a>
     <nav class="navigation">
       <button class="navigation__button" type="button">
@@ -330,7 +334,9 @@
   <footer class="footer">
     <div class="footer__content">
       <div class="footer__logo">
-        <a class="footer__logo-text" href="#">Логотип Cat energy</a>
+        <a class="footer__logo-link" href="index.html">
+          <img class="footer__logo-text" src="images/logo-text.svg" width="128" height="24" alt="Логотип с надписью Cat Energy">
+        </a>
       </div>
       <div class="footer__social social">
         <ul class="social__list">

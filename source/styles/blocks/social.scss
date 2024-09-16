@@ -1,3 +1,40 @@
-.social__list {
+.social {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
+  justify-content: center;
+  gap: 24px;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.social__link {
+  display: flex;
+  position: relative;
+  width: 28px;
+  height: 22px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.social__link--vk::before {
+  background-image: url("../../icons/stack.svg#logo-vk");
+}
+
+.social__link--youtube::before {
+  background-image: url("../../icons/stack.svg#logo-youtube");
+}
+
+.social__link--telegram::before {
+  background-image: url("../../icons/stack.svg#logo-telegram");
 }

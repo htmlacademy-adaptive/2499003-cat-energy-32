@@ -1,4 +1,28 @@
 .dev {
-  background-color: #f2f2f2;
+  display: flex;
+  color: #444444;
+  min-height: 34px;
   text-decoration: none;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 27px;
+    height: 34px;
+    right: 0;
+    position: absolute;
+    background-image: url("../../icons/stack.svg#logo-htmlacademy-image");
+    background-position: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.dev__text {
+  display: block;
+  align-self: center;
+  font-family: $basic-font;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
 }
